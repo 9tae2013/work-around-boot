@@ -8,3 +8,7 @@ logging:
     org.springframework: INFO
     org.hibernate.SQL: DEBUG
     org.hibernate.tool.hbm2ddl: DEBUG
+
+management:
+  security:
+    enabled: false
